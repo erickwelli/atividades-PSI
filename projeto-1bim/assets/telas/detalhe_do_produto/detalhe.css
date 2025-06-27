@@ -1,0 +1,248 @@
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+
+
+main h1 .campeoes{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 32px;
+    color: #00B4D8;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    letter-spacing: 10px;
+}
+
+main h1 .campeoes:hover{
+    color: #e5e5e5;
+}
+
+main .container-column .caminho{
+    margin-bottom: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .container-column .caminho:hover{
+    color: #00B4D8;
+}
+
+main .container-column .caminho-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .container-column .caminho:hover{
+    color: #00B4D8;
+    display: flex;
+}
+
+main .container-column .container_detalhamento{
+    display: flex;
+    gap: 36px;
+}
+
+main .container-column .container_detalhamento .imagens{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.container-column .container_detalhamento .imagens .imagens-pequenas{
+    display: flex;
+    gap: 25px;
+}
+
+h1{
+    color: #00B4D8;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-weight: 100;
+}
+
+.descricao .titulo_estrela{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descricao .valor_tabela{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.descricao .valor_tabela .valor{
+    display: flex;
+    gap: 12px;
+    font-weight: 700;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.descricao .valor_tabela .valor span{
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+    align-items: center;
+    color: #00B4D8
+}
+
+.descricao .valor_tabela .valor span p{
+    color: #00B4D8;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.descricao .valor_tabela .valor s{
+    color: #BF0000;
+    font-size: 18px;
+}
+
+.descricao .valor_tabela .valor a{
+    text-decoration: none;
+    border: 2px solid #FFB20B;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.valor_tabela .tabela{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descricao .valor_tabela table{
+    width: 400px;
+    border: 2px #FFB20B solid;
+    border-collapse: collapse;
+}
+
+.descricao p{
+    color: #e5e5e5;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+td{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: #FFB20B 2px solid;
+    padding: 10px;
+    padding-right: 2px;
+}
+
+.orelha_quantidade{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.orelha_quantidade .orelhas{
+    display: flex;
+    gap: 30px;
+}
+
+.orelha_quantidade .orelhas .orelha{
+    display: flex;
+    gap: 16px;
+}
+
+.orelha_quantidade .orelhas .orelha .opcao{
+    width: 20px;
+    height: 20px;
+    background-color: #000B29;
+    border: 2px solid #00B4D8;
+    border-radius: 100px;
+}
+
+.orelha_quantidade .quantidade{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.orelha_quantidade .quantidade img{
+    width: 120px;
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    gap: 40px;
+}
+
+.botoes a:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background-color: #00B4D8;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 15px;
+}
+
+.botoes a:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background-color: #000B29;
+    border: 2px solid #00B4D8;
+    font-weight: 900;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.botoes a:hover{
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-conteudo {
+    background-color: #00B4D8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fechar {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+

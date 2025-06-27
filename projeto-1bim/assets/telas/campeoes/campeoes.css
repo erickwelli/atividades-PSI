@@ -1,0 +1,129 @@
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .linha{
+    margin: 30px 0 50px 0;
+}
+
+main .linha:nth-of-type(2){
+    margin: 50px 0 30px 0;
+}
+
+main h1 .campeoes{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 32px;
+    color: #00B4D8;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    letter-spacing: 10px;
+}
+
+main h1 .campeoes:hover{
+    color: #e5e5e5;
+}
+
+main .container-column .caminho{
+    margin-bottom: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .container-column .caminho:hover{
+    color: #00B4D8;
+}
+
+main .container-column .caminho-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .container-column .caminho:hover{
+    color: #00B4D8;
+    display: flex;
+}
+
+main .container-column .container-campeoes{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+main .container-column .container-campeoes .titulo{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo h2{
+    color: #00B4D8;
+    font-family: Cinzel;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+.titulo span{
+    font-weight: 700;
+}
+
+.container-column .container-campeoes .filtros{
+    display: flex;
+    gap: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.filtros p{
+    color: #FFC300;
+    text-decoration: underline;
+}
+
+.filtros p:hover{
+    color: #e5e5e5;
+}
+
+.container-campeoes .todos-campeoes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-campeoes .todos-campeoes .campeoes{
+    display: flex;
+    gap: 65px;
+}
+
+.container-campeoes .todos-campeoes .campeoes .campeao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-weight: 800;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.todos-campeoes .campeoes .campeao:hover{
+    transform: scale(1.1);
+}
+
+.campeoes .campeao img{
+    width: 76px;
+}
+
+
+.voltar a{
+    color:#00B4D8;
+    font-size: 12px;
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    list-style: none;
+    border-style: none;
+    outline-style: none;
+    color: #e5e5e5;
+}
+
+body{
+    background-color: #000B29;
+}
+
+.container-column{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-row{
+    width: 1200px;
+    display: flex;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0;
+    flex-direction: column;
+}
+
+header a{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+header .container-row{
+    justify-content: space-between;
+}
+
+header .container-row img{
+    width: 140px;
+}
+
+header .container-row .pesquisa{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+header .container-row .pesquisa div{
+    position: relative;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+header .container-row .pesquisa div i{
+    position: absolute;
+    font-size: 20px;
+    right: 124px;
+    top: 12px;
+    cursor: pointer;
+}
+
+header input{
+    background-color: #000B29;
+    border: 2px solid #FFC300;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    width: 70%;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: #e5e5e5;
+}
+
+header .container-row .pesquisa nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .container-row .pesquisa a:hover{
+    color: #00B4D8;
+}
+
+header .container-row .botoes-header{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+header .container-row .botoes-header a{
+    text-decoration: none;
+}
+
+header .container-row .botoes-header a:first-child{
+    border: #00B4D8 2px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+}
+
+header .container-row .botoes-header a:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: #00B4D8;
+    border-radius: 10px;
+    border: #00B4D8 2px solid;
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.linha::before,
+.linha::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: #FFC300;
+}
+
+.linha img {
+    margin: 0 30px;
+    width: 50px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+footer .linha{
+    margin: 100px 0 30px 0;
+}
+
+footer h2, i{
+    font-size: 20px;
+}
+
+footer span{
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer .container-row span:hover{
+    color: #00B4D8;
+}
+
+footer .container-row .direita .footer-textos a:hover{
+    color: #00B4D8;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer .container-row{
+    justify-content: space-between;
+}
+
+footer .container-row .esquerda{
+    display: flex;
+    gap: 40px;
+}
+
+footer .container-row .esquerda .logo-footer img{
+    width: 280px;
+}
+
+footer .container-row .esquerda .rede_social-pagamento{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+
+footer .container-row .esquerda .rede_social-pagamento .rede_social{
+    width: 222px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .container-row .esquerda .rede_social-pagamento .rede_social .redes_sociais{
+    display: flex;
+    gap: 26px;
+    cursor: pointer;
+}
+
+footer .container-row .esquerda .rede_social-pagamento .pagamento{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 222px;
+}
+
+footer .container-row .esquerda .rede_social-pagamento .pagamento .pagamentos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    cursor: pointer;
+}
+
+footer .container-row .direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .container-row .direita .atendimento-empresa{
+    display: flex;
+    gap: 60px;
+}
+
+footer .container-row .direita .atendimento-empresa .atendimento, .empresa{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .container-row .direita .atendimento-empresa .footer-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

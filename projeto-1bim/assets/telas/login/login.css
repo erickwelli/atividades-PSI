@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-style: none;
+    outline: none;
+}
+
+label, h1, span, a{
+    color: #FFC300;
+}
+
+
+h1{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 24px;
+}
+
+body{
+    background-image: url(../../imgs/background-login.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+}
+
+.tela{
+    background-color: #000B29;
+    border: 2px solid #FFC300;
+    width: 700px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    border-radius: 10px;
+    gap: 28px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.titulo span{
+    font-size: 16px;
+}
+
+img{
+    width: 220px;
+}
+
+form, fieldset, fieldset div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form{
+    gap: 45px;
+}
+
+fieldset{
+    gap: 16px;
+    align-items: center;
+}
+
+fieldset div{
+    width: 300px;
+    gap: 8px;
+}
+
+input{
+    background-color: #E5E5E5;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #000B29;
+    color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #00B4D8;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
