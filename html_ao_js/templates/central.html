@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Teste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+
+    <p id="t1"></p>
+
+    <script>
+        document.getElementById("t1").innerHTML = "teste";
+        document.getElementById("t1").style.fontSize = "25px";
+        document.getElementById("t1").style.color = "pink";
+        document.getElementById("t1").style.backgroundColor = "black";
+    </script>
+
+    <style>
+        body{
+            background-image: url(https://wallpapers.com/images/hd/blood-moon-j2gjt2oy8as750f5.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+
+    <script>
+        const imgElement = document.createElement('img');
+
+        imgElement.src = 'https://i.pinimg.com/736x/04/b9/db/04b9dba5cb1f6208831f1ed69ad23c8e.jpg';
+
+        imgElement.alt = 'Descrição';
+
+        imgElement.width = 400;
+        imgElement.height = 400;
+
+        document.body.appendChild(imgElement);
+    </script>
+    
+    <script>
+        const morango = "Bem vindo ao meu site"
+        console.log(morango);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
